@@ -2,7 +2,7 @@
 #include "main.h"
 #include <iostream>
 #include <Windows.h>
-#include "../SysMon/Common.h"
+#include "../driver/Common.h"
 
 cGlobals Globals;
 void DisplayTime(const LARGE_INTEGER& time) {
