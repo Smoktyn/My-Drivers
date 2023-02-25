@@ -20,6 +20,5 @@ int main() {
 	::Sleep(2000);
 	CloseHandle(hDevice);
 	free(str);
-	//delete[] str;
 	return 0;
 }
